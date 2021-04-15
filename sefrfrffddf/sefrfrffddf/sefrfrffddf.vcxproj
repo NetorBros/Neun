@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{E4939B31-9150-4BAE-8952-2D3CD1CE2F11}</ProjectGuid>
+    <RootNamespace>sefrfrffddf</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\fcffc\Downloads\PhysX-4.1\pxshared\include\foundation;C:\Users\fcffc\Downloads\ScriptHookV_SDK_1.0.617.1a\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\fcffc\Downloads\ScriptHookV_SDK_1.0.617.1a\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MAINA.cpp" />
+    <ClCompile Include="PhysxGam.cpp" />
+    <ClCompile Include="SCRIPT.CPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\PSXDEVTOOLS\latest\PSX\SAMPLE\GRAPHICS\MIME\VJMIME\PADDEF.H" />
+    <ClInclude Include="..\..\..\..\..\..\PSXDEVTOOLS\latest\PSX\SAMPLE\OLD\ETC\CARD\MAX\PAD.H" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\Px.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxAllocatorCallback.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxBitAndData.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxBounds3.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxErrorCallback.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxErrors.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxFlags.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxIntrinsics.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxIO.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxMat33.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxMat44.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxMath.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxMemory.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxPlane.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxPreprocessor.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxProfiler.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxQuat.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxSharedAssert.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxSimpleTypes.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxStrideIterator.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxTransform.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxUnionCast.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxVec2.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxVec3.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxVec4.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\unix\PxUnixIntrinsics.h" />
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\windows\PxWindowsIntrinsics.h" />
+    <ClInclude Include="Analog.h" />
+    <ClInclude Include="hantexh.h" />
+    <ClInclude Include="Keyboar.h" />
+    <ClInclude Include="money.h" />
+    <ClInclude Include="ProcessGr.h" />
+    <ClInclude Include="script.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\PSXDEVTOOLS\CDGEN\LCNSFILE\LICENSEA.DAT" />
+    <None Include="..\..\..\..\Downloads\ADIO1.VH" />
+    <None Include="..\..\..\..\Downloads\AUDIO1.VB" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
