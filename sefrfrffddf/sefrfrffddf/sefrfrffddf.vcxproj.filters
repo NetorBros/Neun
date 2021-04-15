@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\SCRIPT">
+      <UniqueIdentifier>{40bb0715-077d-4e8e-afd5-2514e6192fcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="MAINA.cpp">
+      <Filter>Pliki źródłowe\SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="SCRIPT.CPP">
+      <Filter>Pliki źródłowe\SCRIPT</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysxGam.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Analog.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Pliki źródłowe\SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="hantexh.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="money.h">
+      <Filter>Pliki źródłowe\SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboar.h">
+      <Filter>Pliki źródłowe\SCRIPT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\Px.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxAllocatorCallback.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxBitAndData.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxBounds3.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxErrorCallback.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxErrors.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxFlags.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxIntrinsics.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxIO.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxMat33.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxMat44.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxMath.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxMemory.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxPlane.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxPreprocessor.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxProfiler.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxQuat.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxSharedAssert.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxSimpleTypes.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxStrideIterator.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxTransform.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxUnionCast.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxVec2.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxVec3.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\PxVec4.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\unix\PxUnixIntrinsics.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\PhysX-4.1\pxshared\include\foundation\windows\PxWindowsIntrinsics.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGr.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\PSXDEVTOOLS\latest\PSX\SAMPLE\OLD\ETC\CARD\MAX\PAD.H">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\PSXDEVTOOLS\latest\PSX\SAMPLE\GRAPHICS\MIME\VJMIME\PADDEF.H">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\ADIO1.VH" />
+    <None Include="..\..\..\..\Downloads\AUDIO1.VB" />
+    <None Include="..\..\..\..\..\..\PSXDEVTOOLS\CDGEN\LCNSFILE\LICENSEA.DAT" />
+  </ItemGroup>
+</Project>
