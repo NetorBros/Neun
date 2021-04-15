@@ -1,0 +1,12 @@
+﻿  Main.cpp
+c:\users\fcffc\source\repos\sefrfrffddf\sefrfrffddf\main.cpp(1): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\qcc\platform.h(38): fatal error C1189: #error:  No OS GROUP defined.
+  MAINA.cpp
+c:\users\fcffc\source\repos\sefrfrffddf\sefrfrffddf\types.h(50): error C2371: "uint": zmiana definicji; różne typy podstawowe
+  c:\users\fcffc\downloads\scripthookv_sdk_1.0.617.1a\inc\types.h(13): note: zobacz deklarację „uint”
+c:\users\fcffc\source\repos\sefrfrffddf\sefrfrffddf\types.h(75): error C2371: "time_t": zmiana definicji; różne typy podstawowe
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\corecrt.h(631): note: zobacz deklarację „time_t”
+c:\users\fcffc\source\repos\sefrfrffddf\sefrfrffddf\maina.cpp(3): fatal error C1083: Nie można otworzyć pliku dołącz: 'keyboard.h': No such file or directory
+  SCRIPT.CPP
+c:\users\fcffc\source\repos\sefrfrffddf\sefrfrffddf\script.cpp(1): fatal error C1083: Nie można otworzyć pliku dołącz: 'stdlib': No such file or directory
+  Generowanie kodu...
